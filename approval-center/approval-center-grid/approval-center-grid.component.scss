@@ -1,0 +1,41 @@
+@import "_mixins.scss";
+@import "_placeholders.scss";
+@import "_media-queries.scss";
+@import "_variables.scss";
+@import "primeng/_tabview.scss";
+
+:host {
+  display: block;
+
+  ::ng-deep {
+    @include tabview($panels-height: 475px);
+    
+    .ui-dialog-content {
+      width: 840px;
+    }
+
+    li.ui-listbox-item {
+      width: 50%;
+    }
+
+    .checkbox-group__fourths .ui-listbox-item {
+      width: 25%;
+    }
+
+    .ui-autocomplete {
+      width: 300px;
+
+      &.ui-autocomplete-dd .ui-autocomplete-input {
+        width: calc(100% - 3em);
+      }
+    }
+
+    .ng-star-inserted {
+      line-height: 20px;
+    }
+
+    .label.label {
+      color: #5f88b2;
+    }
+  }
+}

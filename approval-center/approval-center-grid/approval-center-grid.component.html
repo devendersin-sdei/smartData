@@ -1,0 +1,92 @@
+<app-server-grid *ngIf="approvalCenterGridRequest" [configuration]="approvalCenterGridConfiguration"
+                 [(request)]="approvalCenterGridRequest"
+                 [refresh]="refreshGrid"
+                 [(selection)]="approvalCenterGridSelection"
+                 [actions]="actions"
+                 [filterTemplate]="filterForm"
+                 (dataLoaded)="gridDataLoaded($event)"
+                 [actionTemplate]="approvalCenterActionTemplate">
+
+  <ng-template #approvalCenterActionTemplate
+               let-rowData>
+    <div class="action-template-container">
+      <app-button *ngFor="let action of actions; trackBy: trackByIndex"
+                  [text]="action.name"
+                  (onClick)="action.action(rowData)"></app-button>
+    </div>
+  </ng-template>
+
+  <ng-template #filterForm
+               let-form>
+    <app-tab-menu orientation="left">
+
+      <app-tab-panel header="Request ID"
+                  *ngIf="showRequestIdFilter">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="requestIdInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Chase">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="chaseIdInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Project(s)">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="projectsInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Measure(s)">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="measuresInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Original AID"
+                  *ngIf="showOriginalAIDFilter">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="originalAIDInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Destination AID"
+                  *ngIf="showDestinationAIDFilter">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="destinationAIDInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Requested By">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="requestedByInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Status(s)">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="statusInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+      <app-tab-panel header="Pursuit Type" *ngIf="showPursuitTypeFilter">
+        <div class="ui-g-12 ui-md-12 ui-lg-12">
+          <form-factory [formGroup]="form"
+                        [model]="pursuitTypeInput"></form-factory>
+        </div>
+      </app-tab-panel>
+
+    </app-tab-menu>
+
+  </ng-template>
+</app-server-grid>

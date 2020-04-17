@@ -1,0 +1,15 @@
+<app-detail-main-template>
+  <div container-header>
+    <div class="header bold">APPROVE CHASE MOVEMENTS</div>
+  </div>
+  <div container-body>
+    <div>
+      <app-approval-center-grid [url]="url"
+                                [additionalColumns]="additionalColumns"
+                                [additionalFilters]="additionalFilters"
+                                [approvalRequestType]="approvalRequestType">
+      </app-approval-center-grid>
+    </div>
+  </div>
+</app-detail-main-template>
+

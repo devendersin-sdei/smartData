@@ -1,0 +1,56 @@
+@import "_mixins.scss";
+@import "_placeholders.scss";
+@import "_media-queries.scss";
+@import "_variables.scss";
+
+:host ::ng-deep {
+  .ui-dialog-content {
+    width: 840px;
+  }
+
+  .ui-tabview-nav {
+    height: auto;
+
+    li.ui-state-default {
+      margin: 0;
+      background: $primary-color;
+      border: none;
+      cursor: pointer;
+      border-radius: 0;
+
+      &:not(.ui-state-active):not(.ui-state-disabled):hover {
+        background: $default-color;
+      }
+    }
+
+    li.ui-tabview-selected.ui-state-active {
+      background: $default-color;
+      cursor: default;
+    }
+
+    .ui-tabview-title {
+      line-height: 20px;
+      color: $white;
+    }
+  }
+
+  li.ui-listbox-item {
+    width: 50%;
+  }
+
+  p-tabpanel.checkbox-group__fourths .ui-listbox-item {
+    width: 25%;
+  }
+
+  .ui-autocomplete {
+    width: 300px;
+
+    &.ui-autocomplete-dd .ui-autocomplete-input {
+      width: calc(100% - 3em);
+    }
+  }
+
+  .ng-star-inserted {
+    line-height: 20px;
+  }
+}
