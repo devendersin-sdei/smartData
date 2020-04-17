@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.StudentsController.GetAll">
+             <summary>
+             Gets all students.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET api/students
+            
+             </remarks> 
+             <returns>All records.</returns>
+             <response code="200">Returns all the students.</response>
+        </member>
+        <member name="M:Api.Controllers.StudentsController.Get(System.Int32)">
+             <summary>
+             Gets specific student.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET api/students/1
+            
+             </remarks>
+             <param name="id">Student id.</param>
+             <returns>Returns the specific student.</returns>
+             <response code="200">Returns the specific student.</response>
+             <response code="404">If the student is not found.</response>      
+        </member>
+        <member name="M:Api.Controllers.StudentsController.Post(MicroservicesArchitecture.Application.Dtos.Students.CreateStudentRequest)">
+             <summary>
+             Creates a student.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST api/students
+                 {
+                    "name": "Student 1",
+                 }
+            
+             </remarks> 
+             <param name="model"></param>
+             <returns>A newly created student.</returns>
+             <response code="201">Returns the newly created student.</response>
+             <response code="400">If the student is invalid.</response>        
+        </member>
+        <member name="M:Api.Controllers.StudentsController.Put(System.Int32,MicroservicesArchitecture.Application.Dtos.Students.UpdateStudentRequest)">
+             <summary>
+             Updates an existing student.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT api/students/1
+                 {
+                    "name": "Student 1",
+                 }
+            
+             </remarks>
+             <param name="id">Student id.</param>
+             <param name="model"></param>
+             <returns>Updated student.</returns>
+             <response code="200">Returns the updated student.</response>
+             <response code="400">If the student is invalid.</response>
+             <response code="404">If the student is not found.</response>
+        </member>
+        <member name="M:Api.Controllers.StudentsController.Delete(System.Int32)">
+             <summary>
+             Deletes a specific student.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 DELETE api/students/1
+            
+             </remarks>
+             <param name="id">Student id.</param>
+             <response code="204">Student deleted.</response>
+        </member>
+    </members>
+</doc>

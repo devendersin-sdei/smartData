@@ -1,0 +1,8 @@
+D:\sahil\Learning\MicroservicesArchitecture\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+D:\sahil\Learning\MicroservicesArchitecture\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\sahil\Learning\MicroservicesArchitecture\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\sahil\Learning\MicroservicesArchitecture\Common\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Common.deps.json
+D:\sahil\Learning\MicroservicesArchitecture\Common\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Common.dll
+D:\sahil\Learning\MicroservicesArchitecture\Common\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Common.pdb
+D:\sahil\Learning\MicroservicesArchitecture\Common\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.Common.dll
+D:\sahil\Learning\MicroservicesArchitecture\Common\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.Common.pdb

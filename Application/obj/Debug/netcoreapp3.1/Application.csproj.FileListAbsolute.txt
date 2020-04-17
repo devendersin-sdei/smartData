@@ -1,0 +1,11 @@
+D:\sahil\Learning\MicroservicesArchitecture\Application\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Application.deps.json
+D:\sahil\Learning\MicroservicesArchitecture\Application\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Application.dll
+D:\sahil\Learning\MicroservicesArchitecture\Application\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Application.pdb
+D:\sahil\Learning\MicroservicesArchitecture\Application\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Domain.dll
+D:\sahil\Learning\MicroservicesArchitecture\Application\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Domain.pdb
+D:\sahil\Learning\MicroservicesArchitecture\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+D:\sahil\Learning\MicroservicesArchitecture\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+D:\sahil\Learning\MicroservicesArchitecture\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+D:\sahil\Learning\MicroservicesArchitecture\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+D:\sahil\Learning\MicroservicesArchitecture\Application\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.Application.dll
+D:\sahil\Learning\MicroservicesArchitecture\Application\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.Application.pdb

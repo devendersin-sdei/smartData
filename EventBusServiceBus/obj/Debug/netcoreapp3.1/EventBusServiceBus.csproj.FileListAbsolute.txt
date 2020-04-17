@@ -1,0 +1,11 @@
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusServiceBus.deps.json
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusServiceBus.dll
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\obj\Debug\netcoreapp3.1\EventBusServiceBus.csprojAssemblyReference.cache
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\obj\Debug\netcoreapp3.1\EventBusServiceBus.AssemblyInfoInputs.cache
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\obj\Debug\netcoreapp3.1\EventBusServiceBus.AssemblyInfo.cs
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBus.dll
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusServiceBus.pdb
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBus.pdb
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\obj\Debug\netcoreapp3.1\EventBusServiceBus.csproj.CopyComplete
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusServiceBus.dll
+D:\sahil\Learning\MicroservicesArchitecture\EventBusServiceBus\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusServiceBus.pdb

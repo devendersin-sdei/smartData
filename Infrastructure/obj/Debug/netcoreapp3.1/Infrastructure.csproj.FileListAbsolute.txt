@@ -1,0 +1,13 @@
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Infrastructure.deps.json
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Infrastructure.dll
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Infrastructure.pdb
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Application.dll
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Domain.dll
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Application.pdb
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.Domain.pdb
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.Infrastructure.dll
+D:\sahil\Learning\MicroservicesArchitecture\Infrastructure\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.Infrastructure.pdb

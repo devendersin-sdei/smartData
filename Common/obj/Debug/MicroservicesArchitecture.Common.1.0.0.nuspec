@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MicroservicesArchitecture.Common</id>
+    <version>1.0.0</version>
+    <authors>MicroservicesArchitecture.Common</authors>
+    <owners>MicroservicesArchitecture.Common</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="3.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="3.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.1.2" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="5.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\sahil\Learning\MicroservicesArchitecture\Api\bin\Debug\netcoreapp3.1\netcoreapp3.1\MicroservicesArchitecture.Common.dll" target="lib\netcoreapp3.1\MicroservicesArchitecture.Common.dll" />
+  </files>
+</package>

@@ -1,0 +1,11 @@
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusRabbitMQ.deps.json
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusRabbitMQ.dll
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.AssemblyInfoInputs.cache
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.AssemblyInfo.cs
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBus.dll
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBus.pdb
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.csprojAssemblyReference.cache
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.csproj.CopyComplete
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusRabbitMQ.pdb
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusRabbitMQ.dll
+D:\sahil\Learning\MicroservicesArchitecture\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\MicroservicesArchitecture.EventBusRabbitMQ.pdb
