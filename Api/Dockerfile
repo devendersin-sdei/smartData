@@ -8,7 +8,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 EXPOSE 8080
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-sac2016 AS build
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS build
 WORKDIR /src
 COPY ["Api/Api.csproj", "Api/"]
 RUN dotnet restore "Api/Api.csproj"
