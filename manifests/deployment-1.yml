@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "scripsappointment-b29b"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "scripsappointment-b29b"
+    spec:
+      containers:
+        - name: "scripsappointment-b29b"
+          image: "scripsregistry.azurecr.io/scripsappointment"
+          ports:
+          - containerPort: 80
