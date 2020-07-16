@@ -1,0 +1,50 @@
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    
+    - uses: azure/docker-login@v1
+      with:
+        login-server: scripsregistry.azurecr.io
+        username: ${{ secrets.acr_scripsregistry_username }}
+        password: ${{ secrets.acr_scripsregistry_password }}
+    
+    - name: Build and push image to ACR
+      id: build-image
+      run: |
+        docker build "$GITHUB_WORKSPACE/Api" -f  "Api/Dockerfile" -t scripsregistry.azurecr.io/scripsappointment:${{ github.sha }}
+        docker push scripsregistry.azurecr.io/scripsappointment:${{ github.sha }}
+    
+    - uses: azure/k8s-set-context@v1
+      with:
+         kubeconfig: ${{ secrets.aks_scripsappointment_kubeConfig }}
+      id: login
+    
+    - name: Create namespace
+      run: |
+        namespacePresent=`kubectl get namespace | grep scripsappointment84e6 | wc -l`
+        if [ $namespacePresent -eq 0 ]
+        then
+            echo `kubectl create namespace scripsappointment84e6`
+        fi
+
+    - uses: azure/k8s-create-secret@v1
+      with:
+        namespace: scripsappointment84e6
+        container-registry-url: scripsregistry.azurecr.io
+        container-registry-username: ${{ secrets.acr_scripsregistry_username }}
+        container-registry-password: ${{ secrets.acr_scripsregistry_password }}
+        secret-name: scripsappoindockerauth
+       
+    - uses: azure/k8s-deploy@v1
+      with:
+        namespace: scripsappointment84e6
+        manifests: |
+          manifests/deployment.yml
+          manifests/service.yml
+        images: |
+          scripsregistry.azurecr.io/scripsappointment:${{ github.sha }}
+        imagepullsecrets: |
+          scripsappoindockerauth
