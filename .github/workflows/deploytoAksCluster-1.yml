@@ -14,7 +14,7 @@ jobs:
     - name: Build and push image to ACR
       id: build-image
       run: |
-        docker build "$GITHUB_WORKSPACE/Api" -f  "Api/Dockerfile" -t scripsregistry.azurecr.io/scripsappointment:${{ github.sha }}
+        docker build -f  "Api/Dockerfile" -t scripsregistry.azurecr.io/scripsappointment:${{ github.sha }} .
         docker push scripsregistry.azurecr.io/scripsappointment:${{ github.sha }}
     
     - uses: azure/k8s-set-context@v1
