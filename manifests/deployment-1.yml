@@ -6,7 +6,7 @@ spec:
   replicas: 2
   selector:
       matchLabels:
-        name: "scripsappointment-b29b"
+        app: "scripsappointment-b29b"
   template:
     metadata:
       labels:
