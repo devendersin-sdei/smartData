@@ -23,7 +23,7 @@ namespace Api
                 {
                     webBuilder.UseKestrel(options =>
                      {
-                         options.Listen(IPAddress.Any, 5000);
+                         options.Listen(IPAddress.Any, 80);
                      })
                     .UseStartup<Startup>();
                 });
