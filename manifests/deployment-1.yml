@@ -16,4 +16,4 @@ spec:
         - name: "scripsappointment-b29b"
           image: "scripsregistry.azurecr.io/scripsappointment"
           ports:
-          - containerPort: 80
+          - containerPort: 5000
